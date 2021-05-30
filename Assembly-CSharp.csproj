@@ -64,9 +64,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Turntable_platforms\GodRays\Scripts\ScrollBehaviour.cs" />
     <Compile Include="Assets\스크립트\Player_Control.cs" />
     <None Include="Assets\Catgear Games\Model Pack 1\Eggy\README.txt" />
+    <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
+    <None Include="Assets\Models\Key\readME keys.txt" />
     <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
     <None Include="Assets\Turntable_platforms\Materials\Cutout_2Sided.shader" />
     <Reference Include="UnityEngine">
