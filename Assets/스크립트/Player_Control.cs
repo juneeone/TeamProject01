@@ -43,7 +43,7 @@ public class Player_Control : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        //열쇠 획득 시
+        //열쇠 획득 시 Key 카운트를 1개 올린다. 문을 열기 위함.
         if (collider.gameObject.tag == "KEY")
         {
             Key+=1;

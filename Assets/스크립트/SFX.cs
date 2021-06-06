@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//각종 효과음을 관리하는 곳. SoundManager에 부착
+//배경음악은 MainCamera
 public class SFX : MonoBehaviour
 {
     static AudioSource audiosource;
@@ -15,11 +17,13 @@ public class SFX : MonoBehaviour
         Key = Resources.Load<AudioClip>("KEY");
     }
     
+    //보석 획득 효과음
     public static void Play_Jem()
     {
         audiosource.PlayOneShot(JemCapture);
     }
 
+    //열쇠 효과음
     public static void Play_Key()
     {
         audiosource.PlayOneShot(Key);

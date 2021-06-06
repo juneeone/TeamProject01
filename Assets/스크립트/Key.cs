@@ -13,7 +13,7 @@ public class Key : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        //열쇠 획득 시
+        //열쇠 획득 시 전용 효과음이 재생되고 사라진다.
         if (collider.gameObject.tag == "Player")
         {          
             Debug.Log("열쇠 획득!");
