@@ -66,7 +66,11 @@
   <ItemGroup>
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Turntable_platforms\GodRays\Scripts\ScrollBehaviour.cs" />
+    <Compile Include="Assets\스크립트\Gate_Goal.cs" />
+    <Compile Include="Assets\스크립트\JEM.cs" />
+    <Compile Include="Assets\스크립트\Key.cs" />
     <Compile Include="Assets\스크립트\Player_Control.cs" />
+    <Compile Include="Assets\스크립트\SFX.cs" />
     <None Include="Assets\Catgear Games\Model Pack 1\Eggy\README.txt" />
     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
     <None Include="Assets\Models\Key\readME keys.txt" />

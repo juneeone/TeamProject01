@@ -6,6 +6,7 @@ TagManager:
   tags:
   - KEY
   - JEM
+  - GOAL
   layers:
   - Default
   - TransparentFX

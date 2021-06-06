@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player_Control : MonoBehaviour
 {
-
+    public int Key = 0;
     private float Player_Speed = 0.05f;
     public int score = 0;
 
@@ -32,14 +32,22 @@ public class Player_Control : MonoBehaviour
 
     }
 
-    public void Score_one(Collider other)
+    //public void Score_one(Collider other)
+    //{
+    //    if (other.gameObject.tag == "JEM")
+    //    {    
+    //        score += 100;
+    //        Debug.Log(score);
+    //    }
+    //}
+
+    private void OnTriggerEnter(Collider collider)
     {
-        if(other.gameObject.tag=="JEM")
+        //열쇠 획득 시
+        if (collider.gameObject.tag == "KEY")
         {
-            Destroy(other.gameObject);
-            score += 100;
-            Debug.Log(score);
-        }    
+            Key+=1;
+        }
     }
 
     // Start is called before the first frame update
