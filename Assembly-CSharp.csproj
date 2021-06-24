@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\C# Script\Finish.cs" />
+    <Compile Include="Assets\C# Script\GameOver.cs" />
     <Compile Include="Assets\C# Script\Gate_Goal.cs" />
     <Compile Include="Assets\C# Script\JEM.cs" />
     <Compile Include="Assets\C# Script\Key.cs" />

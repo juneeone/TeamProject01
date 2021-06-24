@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AnimationScript
     - CFX_AutoDestructShuriken
     - Finish
+    - GameOver
     - Gate_Goal
     - JEM
     - Key
@@ -80,35 +81,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11296}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11458}
+      Script: {instanceID: 11338}
     - Class: 114
-      Script: {instanceID: 11612}
+      Script: {instanceID: 11472}
     - Class: 114
-      Script: {instanceID: 11882}
+      Script: {instanceID: 11626}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 12746}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12568}
     - Class: 114
-      Script: {instanceID: 13030}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 13102}
+      Script: {instanceID: 12832}
     - Class: 114
-      Script: {instanceID: 42750}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 100146}
+      Script: {instanceID: 13006}
     - Class: 114
-      Script: {instanceID: 100154}
+      Script: {instanceID: 13072}
     - Class: 114
-      Script: {instanceID: 130914}
+      Script: {instanceID: 13144}
+    - Class: 114
+      Script: {instanceID: 27306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -122,6 +125,83 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/GameOver.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11304}
+    - Class: 114
+      Script: {instanceID: 11472}
+    - Class: 114
+      Script: {instanceID: 11512}
+    - Class: 114
+      Script: {instanceID: 11898}
+    - Class: 114
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 12524}
+    - Class: 114
+      Script: {instanceID: 12722}
+    - Class: 114
+      Script: {instanceID: 12784}
+    - Class: 114
+      Script: {instanceID: 13056}
+    - Class: 114
+      Script: {instanceID: 13144}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -163,25 +243,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11296}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11458}
+      Script: {instanceID: 11472}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11882}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12684}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 12746}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 13102}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 129798}
+      Script: {instanceID: 13144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -242,27 +322,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11296}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11458}
+      Script: {instanceID: 11472}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11882}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12746}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 13102}
+      Script: {instanceID: 13006}
     - Class: 114
-      Script: {instanceID: 22436}
+      Script: {instanceID: 13056}
     - Class: 114
-      Script: {instanceID: 42750}
+      Script: {instanceID: 13144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -323,29 +403,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11296}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11458}
+      Script: {instanceID: 11472}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11882}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 12502}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 12746}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12894}
+      Script: {instanceID: 12932}
     - Class: 114
-      Script: {instanceID: 13102}
+      Script: {instanceID: 13056}
     - Class: 114
-      Script: {instanceID: 22436}
+      Script: {instanceID: 13144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -369,6 +449,12 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: e4db0ddf42150a3b60bd39cf2bc3def2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightFlicker
+  - hash:
+      serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -379,6 +465,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 671420ad2c33f1ddaf6d076461adf15a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_Translate
+  - hash:
+      serializedVersion: 2
+      Hash: 909acfc5720acbbd038f715d562e9443
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tractor_Move
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -525,6 +623,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 1d0beb1a2d4edee4c06b6835632e83a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoStopLoopedEffect
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -573,16 +677,34 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 4aac268d7e435f7a65add91aaba819a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDir
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 3f5031037e63abe5dcf87c278e01a4de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RotateCamera
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5d27c6e85ec89cfab8577e9e26695e88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoDestructShuriken
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -598,9 +720,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Quit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 660deb0ce569359218f0ba85b7ce0e3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightIntensityFade
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -627,6 +761,18 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 978a417960280b6c328e51d8b269b367
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Finish
+  - hash:
+      serializedVersion: 2
+      Hash: dad3a1f1e1ecb4691721bab721edd60a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoRotate
+  - hash:
+      serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -637,6 +783,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 421b20ccd7815ebee5e2b14a986d2efc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_New
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -667,6 +819,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 23ee41754b3944a100fa21f6b9829720
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tractor_Spawner
   - hash:
       serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
@@ -717,6 +875,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: e70e7b311a1620c2e899545b2e1fdfae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDirectionTranslate
+  - hash:
+      serializedVersion: 2
       Hash: 539811d032ed9189f3946736085ce9a2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -739,6 +903,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 0477b9f6f0813a953374a714d0cd6287
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Scene_Script
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -831,98 +1001,15 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 0477b9f6f0813a953374a714d0cd6287
+      Hash: ec6338698991a00d11c6268927b36455
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Scene_Script
-  - hash:
-      serializedVersion: 2
-      Hash: e4db0ddf42150a3b60bd39cf2bc3def2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_LightFlicker
-  - hash:
-      serializedVersion: 2
-      Hash: 671420ad2c33f1ddaf6d076461adf15a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_Translate
-  - hash:
-      serializedVersion: 2
-      Hash: 1d0beb1a2d4edee4c06b6835632e83a3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_AutoStopLoopedEffect
-  - hash:
-      serializedVersion: 2
-      Hash: 4aac268d7e435f7a65add91aaba819a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_RandomDir
-  - hash:
-      serializedVersion: 2
-      Hash: 3f5031037e63abe5dcf87c278e01a4de
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_RotateCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 5d27c6e85ec89cfab8577e9e26695e88
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_AutoDestructShuriken
-  - hash:
-      serializedVersion: 2
-      Hash: 660deb0ce569359218f0ba85b7ce0e3a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_LightIntensityFade
-  - hash:
-      serializedVersion: 2
-      Hash: dad3a1f1e1ecb4691721bab721edd60a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_AutoRotate
-  - hash:
-      serializedVersion: 2
-      Hash: 421b20ccd7815ebee5e2b14a986d2efc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_New
-  - hash:
-      serializedVersion: 2
-      Hash: e70e7b311a1620c2e899545b2e1fdfae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_RandomDirectionTranslate
-  - hash:
-      serializedVersion: 2
-      Hash: 909acfc5720acbbd038f715d562e9443
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tractor_Move
-  - hash:
-      serializedVersion: 2
-      Hash: 23ee41754b3944a100fa21f6b9829720
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tractor_Spawner
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Quit
-  - hash:
-      serializedVersion: 2
-      Hash: 978a417960280b6c328e51d8b269b367
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Finish
+    className: GameOver
   platform: 5
   scenePathNames:
   - Assets/MainTitle.unity
   - Assets/Game.unity
   - Assets/HOW.unity
   - Assets/Goal.unity
+  - Assets/GameOver.unity
   playerPath: D:/Unity/ProTeam_Kang/Game/ProTeam_Kang.exe
